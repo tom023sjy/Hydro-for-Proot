@@ -1,0 +1,9 @@
+{
+  "name": "hydro-proot-judge",
+  "version": "1.0.0",
+  "description": "用 proot + watcher 替代 go-judge 的 Hydro 评测插件",
+  "main": "index.js",
+  "dependencies": {
+    "execa": "^8.0.0"
+  }
+}
