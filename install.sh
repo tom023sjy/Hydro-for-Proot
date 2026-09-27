@@ -2,6 +2,10 @@
 set -e
 cd "$(dirname "$0")"
 
+# 1. 装依赖
+apt update
+apt install -y golang-go nodejs npm g++ python3
+
 echo "==> 1/2 编译 watcher"
 bash build.sh
 
